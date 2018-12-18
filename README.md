@@ -48,7 +48,11 @@ temp_control 1545156657.391000 {'Correction4 (V)': 1.5368803518805427, 'Error1 (
 
 
 UPDATE THE CODE WITH THE FOLLOWING:
-Lines 18-21: The measured resistances of the reference resistors
+Lines 18-21: 
+The measured resistances of the reference resistors
+
 Lines 31-24: Which LabJack inputs/ouputs correspond to which channels
+
 Lines 37-40: The conversion coefficients to convert your thermistor resistance to temperature
+
 Lines 209-212: Setpoint temperatures
