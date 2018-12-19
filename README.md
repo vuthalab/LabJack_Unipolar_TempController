@@ -1,12 +1,11 @@
 # LabJack_Unipolar_TempController
 4-channel unipolar temperature controller with LabJack T7
 
+Schematic, photos and code to run 4 parallel servo loops to control temperature with resistive heating. 
 
+Code optionally publishes error signals and correction voltages on a zmq socket
 
-Code to run 4 parallel servo loops to control temperature with resistive heating. 
-
-Optionally publishes error signals and correction voltages on a zmq socket
-
+NOTE: The MOSFETs get hot! Make sure you have a great heat sink. 
 
 
 Sample usage of python code:
